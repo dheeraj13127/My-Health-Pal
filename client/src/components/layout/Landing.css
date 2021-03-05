@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+.landingHeader{
+    background-image: url('../../images/back00.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    
+}
+@media screen and (max-width:670px){
+    .landingHeader{
+        min-height: 500px;
+    }
+}
+@media screen and (max-width:670px){
+    .headerTitle{
+     font-size: 5px;   
+    }
+}
+.headerTitle{
+    font-size: 10px;
+}
+.sidenav li{
+    
+    padding-top: 15px;
+}
+.photoSection{
+    font-family: 'Poppins',sans-serif;
+}
+.section{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+.parallaxContainer{
+    font-family: 'Poppins',sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    .parallax-container {
+        height: 150px;
+    }
+
+}
+@media only screen and (max-width: 736px) {
+    .parallax-container {
+        height: 150px;
+    }
+}
